@@ -1,0 +1,196 @@
+@media all /*pc e telas maiores*/ {
+  /*gerais*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(5, 5, 5);
+    color: white;
+  }
+
+  /*header*/
+
+.primeira-imagem{
+  position: relative;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./imagens/Foto\ de\ fundo\ principal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.icone-mapa{
+  width: 40px;
+}
+
+.informações-cabeçalho{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  gap: 1em;
+  padding: 1em 0em;
+  align-items: center;
+}
+
+.informações-cabeçalho p{
+  cursor: pointer;
+}
+
+.the-great{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.titulo-thegreat{
+  font-size: 80px;
+}
+
+.paragrafo-wander{
+  font-size: 20px;
+  margin-top: 1em;
+}
+
+.imagem-video{
+  margin-top: 4em;
+  width: 60px;
+}
+
+
+
+
+
+
+  /*main*/
+
+.explore-mundo{
+  text-align: center;
+  margin-top: 2em;
+}
+
+.paragrafo-weseek{
+  margin-top: 1em;
+  text-align: center;
+}
+
+.imagens{
+  width: 200px;
+}
+
+.imagens-montanha{
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  margin-top: 3em;
+  flex-wrap: wrap;
+}
+
+.see-more{
+  color: blue;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.the-journal{
+  text-align: center;
+  margin-top: 3em;
+}
+
+.our-favorite{
+  margin-top: 1em;
+}
+
+.imagem-ponte{
+  width: 400px;
+  margin-top: 3em;
+}
+
+.fotos-ponte-rio{
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.may{
+  margin-top: 1em;
+  font-size: 10px;
+}
+
+.symp{
+  margin-top: 0.5em;
+}
+
+.cross{
+  margin-top: 1.0em;
+  font-size: 14px;
+}
+
+
+
+
+
+  /*footer*/
+
+.fim{
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  font-size: 10px;
+}
+
+
+}
+
+/* Estilos para tablets */
+@media (max-width: 1100px) {
+
+
+
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+
+.retirar-p{
+  display: none;
+}
+
+.icone-mapa{
+  width: 80px;
+  margin-top: 2em;
+}
+
+.titulo-thegreat{
+  font-size: 60px;
+}
+
+.paragrafo-wander{
+  font-size: 30px;
+}
+
+.imagem-video{
+  display: none;
+}
+
+}
